@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- French AZERTY thumb layout: only diagonal swipes, common punctuation next to space bar -->
+<keyboard name="Thumb (Français)" script="latin" bottom_row="false">
+  <row>
+    <key c="a" nw="1" ne="loc esc"              se="à"/>
+    <key c="z" nw="2"                            sw="&amp;" se="~"/>
+    <key c="e" nw="3"                            sw="é"     se="è"/>
+    <key c="r" nw="4"                            sw="'"     se="ê"/>
+    <key c="t" nw="5"                            sw="("     se=")"/>
+    <key c="y" nw="6"                            sw="-"     se="|"/>
+    <key c="u" nw="7"                            sw="ù"     se="`"/>
+    <key c="i" nw="8"                            sw="_"     se="\\"/>
+    <key c="o" nw="9"                            sw="\@"    se="ô"/>
+    <key c="p" nw="0"/>
+  </row>
+  <row>
+    <key c="q"        ne="loc tab"/>
+    <key c="s"        nw="loc ß"/>
+    <key c="d"        nw="loc accent_grave"     se="loc accent_aigu"/>
+    <key c="f"        ne="{"                    sw="}"/>
+    <key c="g"        ne="["                    sw="]"/>
+    <key c="h"        ne="="                    sw="+"/>
+    <key c="j"        nw="loc accent_trema"     ne="loc accent_circonflexe" se="^"/>
+    <key c="k"        nw="€"                    sw="$"  se="ç"/>
+    <key c="l"        ne="%"/>
+    <key c="m"        ne="*"/>
+  </row>
+  <row>
+    <key width="2.0" c="shift" ne="loc capslock"/>
+    <key c="w"        ne="&lt;"                 sw="&gt;"/>
+    <key c="x"        nw="loc †"/>
+    <key c="c"        nw="loc accent_cedille"/>
+    <key c="v"        ne=";"                    sw="/"/>
+    <key c="b"        ne=":"                    sw="«"  se="»"/>
+    <key c="n"        nw="§"                    ne="loc accent_tilde"/>
+    <key width="2.0" c="backspace" ne="delete"/>
+  </row>
+  <row height="0.95">
+    <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
+    <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
+    <key width="3.0" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
+    <key width="0.7" c="," nw="\?"/>
+    <key width="0.7" c="." nw="!"/>
+    <key width="1.1" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
+    <key width="1.7" key0="enter" key1="loc voice_typing" key2="action"/>
+  </row>
+</keyboard>
