@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<keyboard name="QWERTY (BQN)" script="latin" embedded_number_row="true">
+<keyboard name="QWERTY (BQN)" script="latin" embedded_number_row="true" bottom_row="false">
   <row height="0.75">
     <key c="1" nw="˘" ne="⎉"                  se="!"/>
     <key c="2" nw="¨" ne="⚇"                  se="@" sw="`"/>
@@ -29,22 +29,30 @@
     <key c="s" nw="𝕤"/>
     <key c="d" nw="↕&#xFE0E;:↕" se="∾"/>
     <key c="f" nw="𝕗"        se="≍"/>
-    <key c="g" nw="𝕘"                         s="_"/>
+    <key c="g" nw="𝕘"                         se="_"/>
     <key c="h" nw="⊸" ne="«"/>
-    <key c="j" nw="∘"  w="⊣" e="⊢"/>
+    <key c="j" nw="∘" sw="⊣" se="⊢"/>
     <key c="k" nw="○" ne="⌾"/>
     <key c="l" nw="⟜" ne="»"/>
-    <key c=";"  w="·"  n="⋄"                  s=","/>
+    <key c=";" nw="⋄" sw="·"                  se=","/>
   </row>
   <row>
-    <key c="shift" e="loc capslock"/>
+    <key c="shift" ne="loc capslock"/>
     <key c="z" nw="⥊" ne="⋈"/>
     <key c="x" nw="𝕩"/>
     <key c="c" nw="↓" ne="˙"                  sw="." se=":"/>
-    <key c="v" nw="∨" ne="⍒" s="‿"/>
-    <key c="b"  s="⌊"  n="⌈"/>
-    <key c="n" nw="≤" ne="≥"  n="≠"           sw="&lt;" se="&gt;" s="="/>
+    <key c="v" nw="∨" ne="⍒" sw="‿"/>
+    <key c="b" nw="⌈" sw="⌊"/>
+    <key c="n" nw="≤" ne="≥"               sw="&lt;" se="&gt;"/>
     <key c="m" nw="≡" ne="≢"                  sw="/" se="?"/>
-    <key width="2" c="backspace" e="delete"/>
+    <key width="2" c="backspace" ne="delete"/>
+  </row>
+  <row height="0.95">
+    <key width="1.7" key0="ctrl" key1="loc switch_greekmath" key2="loc meta" key3="loc switch_clipboard" key4="switch_numeric"/>
+    <key width="1.1" key0="fn" key1="loc alt" key2="loc change_method" key3="switch_emoji" key4="config"/>
+    <key width="3.6" key0="space" key7="switch_forward" key8="switch_backward" key5="cursor_left" key6="cursor_right"/>
+    <key width="0.8" c="=" nw="≠"/>
+    <key width="1.1" key0="loc compose" key7="up" key6="right" key5="left" key8="down" key1="loc home" key2="loc page_up" key3="loc end" key4="loc page_down"/>
+    <key width="1.7" key0="enter" key1="loc voice_typing" key2="action"/>
   </row>
 </keyboard>
