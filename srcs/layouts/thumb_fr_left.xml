@@ -21,15 +21,15 @@
   <row>
     <key role="action" c="backspace" s="delete" ne="loc alt" nw="fn" se="ctrl"/>
     <key c="s" nw="z" ne="f" sw=":" se=";" anticircle="9"/>
-    <key c="e" nw="," ne="è" sw="." se="'" anticircle="8"/>
+    <key c="e" nw="'" ne="è" sw="." se="," anticircle="8"/>
     <key c="t" nw="y" ne="~" sw="é" se="l" anticircle="7"/>
     <key c="=" nw="-" ne="+" sw="/" se="*"/>
   </row>
   <row>
     <key role="action" c="enter" se="action" ne="shift"/>
     <key c="\@" nw="&gt;" ne="&lt;" sw="_" se="&amp;"/>
-    <key role="space_bar" c="space" e="cursor_left" w="cursor_right" anticircle="0" slider="true"/>
-    <key c="|" nw="]" ne="[" sw="{" se="}"/>
+    <key role="space_bar" c="space" e="cursor_left" w="cursor_right" n="loc tab" anticircle="0" slider="true"/>
+    <key c="|" nw="]" ne="[" sw="}" se="{"/>
     <key c="!" nw="\#" ne="\?" sw=")" se="("/>
   </row>
 </keyboard>
