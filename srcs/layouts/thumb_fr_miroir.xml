@@ -5,18 +5,18 @@
     <fn a="copy" b="cut"/>
   </modmap>
   <row>
-    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="loc switch_clipboard"/>
-    <key c="a" nw="^" ne="à" sw="$" se="v" anticircle="1"/>
-    <key c="n" nw="," ne="." sw="w" se="\\" anticircle="2"/>
-    <key c="i" nw="combining_circonflexe" ne="combining_trema" sw="x" se="loc €" anticircle="3"/>
+    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="switch_forward"/>
+    <key c="a" nw="esc" ne="loc accent_grave" sw="$" se="v" anticircle="1"/>
+    <key c="n" nw="'" ne="&quot;" sw="w" se="\\" anticircle="2"/>
+    <key c="i" nw="loc accent_circonflexe" ne="loc accent_trema" sw="x" se="loc €" anticircle="3"/>
     <key c="0" nw="1" ne="2" sw="3" se="4"/>
-    <key c="i" ne="loc esc" sw="loc €" se="x" anticircle="3"/>
-    <key c="n" nw="loc tab" ne="&quot;" sw="\\" se="w" anticircle="2"/>
-    <key c="a" nw="à" ne="^" sw="v" se="$" anticircle="1"/>
-    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" e="change_method" w="loc switch_clipboard"/>
+    <key c="i" nw="loc accent_trema" ne="loc accent_circonflexe" sw="loc €" se="x" anticircle="3"/>
+    <key c="n" nw="&quot;" ne="'" sw="\\" se="w" anticircle="2"/>
+    <key c="a" nw="loc accent_grave" ne="esc" sw="v" se="$" anticircle="1"/>
+    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" e="change_method" w="switch_forward"/>
   </row>
   <row>
-    <key role="action" c="voice_typing" w="copy" n="switch_forward" e="paste" s="selectAll" ne="config"/>
+    <key role="action" sw="copy" nw="loc switch_clipboard" se="paste" c="selectAll" ne="config"/>
     <key c="u" nw="b" ne="h" sw="k" se="ê" anticircle="4"/>
     <key c="o" nw="q" ne="j" sw="p" se="g" anticircle="5"/>
     <key c="r" nw="ç" ne="c" sw="d" se="m" anticircle="6"/>
@@ -24,10 +24,10 @@
     <key c="r" nw="c" ne="ç" sw="m" se="d" anticircle="6"/>
     <key c="o" nw="j" ne="q" sw="g" se="p" anticircle="5"/>
     <key c="u" nw="h" ne="b" sw="ê" se="k" anticircle="4"/>
-    <key role="action" c="voice_typing" e="copy" n="switch_forward" w="paste" s="selectAll" nw="config"/>
+    <key role="action" se="copy" ne="loc switch_clipboard" sw="paste" c="selectAll" nw="config"/>
   </row>
   <row>
-    <key role="action" c="backspace" s="delete" nw="loc alt" ne="fn" sw="ctrl"/>
+    <key role="action" c="backspace" nw="delete" sw="redo" se="undo" ne="ctrl"/>
     <key c="t" nw="~" ne="y" sw="l" se="é" anticircle="7"/>
     <key c="e" nw="è" ne="`" sw="," se="." anticircle="8"/>
     <key c="s" nw="f" ne="z" sw=";" se=":" anticircle="9"/>
@@ -35,17 +35,17 @@
     <key c="s" nw="z" ne="f" sw=":" se=";" anticircle="9"/>
     <key c="e" nw="`" ne="è" sw="." se="," anticircle="8"/>
     <key c="t" nw="y" ne="~" sw="é" se="l" anticircle="7"/>
-    <key role="action" c="backspace" s="delete" ne="loc alt" nw="fn" se="ctrl"/>
+    <key role="action" c="backspace" ne="delete" se="redo" sw="undo" nw="ctrl"/>
   </row>
   <row>
-    <key role="action" c="enter" sw="shift" nw="loc capslock" ne="superscript" se="subscript" e="switch_greekmath"/>
+    <key role="action" c="enter" w="voice_typing" nw="shift" n="loc capslock" ne="superscript" e="fn" se="subscript" sw="switch_greekmath"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
-    <key role="space_bar" c="space" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
-    <key c="&gt;" nw="\?" ne="\#" sw="&amp;" se="_"/>
+    <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
     <key c="!" nw="&lt;" ne="&gt;" sw="(" se=")"/>
-    <key c="&gt;" nw="\?" ne="\#" sw="&amp;" se="_"/>
-    <key role="space_bar" c="space" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
+    <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
-    <key role="action" c="enter" se="shift" ne="loc capslock" nw="superscript" sw="subscript" w="switch_greekmath"/>
+    <key role="action" c="enter" e="voice_typing" ne="shift" n="loc capslock" nw="superscript" w="fn" sw="subscript" se="switch_greekmath"/>
   </row>
 </keyboard>

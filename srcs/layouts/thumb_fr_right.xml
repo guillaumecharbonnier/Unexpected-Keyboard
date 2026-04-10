@@ -6,30 +6,30 @@
   </modmap>
   <row>
     <key c="0" nw="1" ne="2" sw="3" se="4"/>
-    <key c="a" nw="^" ne="à" sw="$" se="v" anticircle="1"/>
-    <key c="n" nw="&quot;" ne="loc tab" sw="w" se="\\" anticircle="2"/>
-    <key c="i" nw="loc esc" sw="x" se="loc €" anticircle="3"/>
-    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="loc switch_clipboard"/>
+    <key c="a" nw="esc" ne="loc accent_grave" sw="$" se="v" anticircle="1"/>
+    <key c="n" nw="'" ne="&quot;" sw="w" se="\\" anticircle="2"/>
+    <key c="i" nw="loc accent_circonflexe" ne="loc accent_trema" sw="x" se="loc €" anticircle="3"/>
+    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="switch_forward"/>
   </row>
   <row>
     <key c="5" nw="6" ne="7" sw="8" se="9"/>
     <key c="u" nw="b" ne="h" sw="k" se="ê" anticircle="4"/>
     <key c="o" nw="q" ne="j" sw="p" se="g" anticircle="5"/>
     <key c="r" nw="ç" ne="c" sw="d" se="m" anticircle="6"/>
-    <key role="action" c="voice_typing" w="copy" n="switch_forward" e="paste" s="selectAll" ne="config"/>
+    <key role="action" sw="copy" nw="loc switch_clipboard" se="paste" c="selectAll" ne="config"/>
   </row>
   <row>
     <key c="=" nw="+" ne="-" sw="*" se="/"/>
     <key c="t" nw="~" ne="y" sw="l" se="é" anticircle="7"/>
     <key c="e" nw="è" ne="`" sw="," se="." anticircle="8"/>
     <key c="s" nw="f" ne="z" sw=";" se=":" anticircle="9"/>
-    <key role="action" c="backspace" s="delete" nw="loc alt" ne="fn" sw="ctrl"/>
+    <key role="action" c="backspace" nw="delete" sw="redo" se="undo" ne="ctrl"/>
   </row>
   <row>
-    <key c="!" nw="\@" ne="&lt;" sw="(" se=")"/>
+    <key c="!" nw="&lt;" ne="&gt;" sw="(" se=")"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
-    <key role="space_bar" c="space" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
-    <key c="&gt;" nw="\?" ne="\#" sw="&amp;" se="_"/>
-    <key role="action" c="enter" sw="shift" nw="loc capslock" ne="superscript" se="subscript" e="switch_greekmath"/>
+    <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
+    <key role="action" c="enter" w="voice_typing" nw="shift" n="loc capslock" ne="superscript" e="fn" se="subscript" sw="switch_greekmath"/>
   </row>
 </keyboard>
