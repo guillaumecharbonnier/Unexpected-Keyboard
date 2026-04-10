@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<keyboard bottom_row="false" name="Thumb FR (gauche)" script="latin">
+  <modmap>
+    <fn a="switch_forward" b="switch_backward"/>
+    <fn a="copy" b="cut"/>
+  </modmap>
+  <row>
+    <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" e="change_method" w="loc switch_clipboard"/>
+    <key c="i" nw="loc tab" ne="loc esc" sw="loc €" se="x" anticircle="3"/>
+    <key c="n" nw="^" ne="`" sw="\\" se="w" anticircle="2"/>
+    <key c="a" nw="à" ne="&quot;" sw="v" se="$" anticircle="1"/>
+    <key c="0" nw="2" ne="1" sw="4" se="3"/>
+  </row>
+  <row>
+    <key role="action" c="voice_typing" e="copy" n="switch_forward" w="paste" s="selectAll" nw="config"/>
+    <key c="r" nw="c" ne="ç" sw="m" se="d" anticircle="6"/>
+    <key c="o" nw="j" ne="q" sw="g" se="p" anticircle="5"/>
+    <key c="u" nw="h" ne="b" sw="ê" se="k" anticircle="4"/>
+    <key c="5" nw="7" ne="6" sw="9" se="8"/>
+  </row>
+  <row>
+    <key role="action" c="backspace" s="delete" ne="loc alt" nw="fn" se="ctrl"/>
+    <key c="s" nw="z" ne="f" sw=":" se=";" anticircle="9"/>
+    <key c="e" nw="," ne="è" sw="." se="'" anticircle="8"/>
+    <key c="t" nw="y" ne="~" sw="é" se="l" anticircle="7"/>
+    <key c="=" nw="-" ne="+" sw="/" se="*"/>
+  </row>
+  <row>
+    <key role="action" c="enter" se="action" ne="shift"/>
+    <key c="\@" nw="&gt;" ne="&lt;" sw="_" se="&amp;"/>
+    <key role="space_bar" c="space" e="cursor_left" w="cursor_right" anticircle="0" slider="true"/>
+    <key c="|" nw="]" ne="[" sw="{" se="}"/>
+    <key c="!" nw="\#" ne="\?" sw=")" se="("/>
+  </row>
+</keyboard>
