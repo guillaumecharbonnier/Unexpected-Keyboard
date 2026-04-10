@@ -6,8 +6,8 @@
   </modmap>
   <row>
     <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" e="change_method" w="loc switch_clipboard"/>
-    <key c="i" ne="loc esc" sw="loc €" se="x" anticircle="3"/>
-    <key c="n" nw="loc tab" ne="&quot;" sw="\\" se="w" anticircle="2"/>
+    <key c="i" nw="combining_circonflexe" ne="combining_trema" sw="loc €" se="x" anticircle="3"/>
+    <key c="n" nw="," ne="." sw="\\" se="w" anticircle="2"/>
     <key c="a" nw="à" ne="^" sw="v" se="$" anticircle="1"/>
     <key c="0" nw="2" ne="1" sw="4" se="3"/>
   </row>
@@ -30,6 +30,6 @@
     <key c="&gt;" nw="\#" ne="\?" sw="_" se="&amp;"/>
     <key role="space_bar" c="space" e="cursor_left" w="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="|" nw="]" ne="[" sw="}" se="{"/>
-    <key c="!" nw="&lt;" ne="\@" sw=")" se="("/>
+    <key c="!" nw="&lt;" ne="&gt;" sw=")" se="("/>
   </row>
 </keyboard>

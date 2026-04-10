@@ -7,8 +7,8 @@
   <row>
     <key role="action" c="switch_emoji" n="cursor_up" s="cursor_down" w="change_method" e="loc switch_clipboard"/>
     <key c="a" nw="^" ne="à" sw="$" se="v" anticircle="1"/>
-    <key c="n" nw="&quot;" ne="loc tab" sw="w" se="\\" anticircle="2"/>
-    <key c="i" nw="loc esc" sw="x" se="loc €" anticircle="3"/>
+    <key c="n" nw="," ne="." sw="w" se="\\" anticircle="2"/>
+    <key c="i" nw="combining_circonflexe" ne="combining_trema" sw="x" se="loc €" anticircle="3"/>
     <key c="0" nw="1" ne="2" sw="3" se="4"/>
     <key c="i" ne="loc esc" sw="loc €" se="x" anticircle="3"/>
     <key c="n" nw="loc tab" ne="&quot;" sw="\\" se="w" anticircle="2"/>
@@ -42,7 +42,7 @@
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
     <key role="space_bar" c="space" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="&gt;" nw="\?" ne="\#" sw="&amp;" se="_"/>
-    <key c="!" nw="\@" ne="&lt;" sw="(" se=")"/>
+    <key c="!" nw="&lt;" ne="&gt;" sw="(" se=")"/>
     <key c="&gt;" nw="\?" ne="\#" sw="&amp;" se="_"/>
     <key role="space_bar" c="space" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
