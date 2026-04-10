@@ -29,7 +29,7 @@
     <key c="!" nw="&lt;" ne="&gt;" sw="(" se=")"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
     <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
-    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="%"/>
     <key role="action" c="enter" w="voice_typing" nw="shift" n="loc capslock" ne="superscript" e="fn" se="subscript" sw="switch_greekmath"/>
   </row>
 </keyboard>

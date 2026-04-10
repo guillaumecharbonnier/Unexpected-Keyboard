@@ -41,9 +41,9 @@
     <key role="action" c="enter" w="voice_typing" nw="shift" n="loc capslock" ne="superscript" e="fn" se="subscript" sw="switch_greekmath"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
     <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
-    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="%"/>
     <key c="!" nw="&lt;" ne="&gt;" sw="(" se=")"/>
-    <key c="?" nw="@" ne="\#" sw="&amp;" se="_"/>
+    <key c="?" nw="@" ne="\#" sw="&amp;" se="%"/>
     <key role="space_bar" c="space" s="_" w="cursor_left" e="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="|" nw="[" ne="]" sw="{" se="}"/>
     <key role="action" c="enter" e="voice_typing" ne="shift" n="loc capslock" nw="superscript" w="fn" sw="subscript" se="switch_greekmath"/>

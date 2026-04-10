@@ -27,7 +27,7 @@
   </row>
   <row>
     <key role="action" c="enter" e="voice_typing" ne="shift" n="loc capslock" nw="superscript" w="fn" sw="subscript" se="switch_greekmath"/>
-    <key c="?" nw="\#" ne="@" sw="_" se="&amp;"/>
+    <key c="?" nw="\#" ne="@" sw="%" se="&amp;"/>
     <key role="space_bar" c="space" s="_" e="cursor_left" w="cursor_right" n="loc tab" anticircle="0" slider="true"/>
     <key c="|" nw="]" ne="[" sw="}" se="{"/>
     <key c="!" nw="&gt;" ne="&lt;" sw=")" se="("/>
